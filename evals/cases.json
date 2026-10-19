@@ -1,0 +1,24 @@
+[
+  {
+    "id": "revenue-by-region",
+    "question": "Which region had the highest total revenue?",
+    "query": "SELECT region, SUM(revenue) AS total_revenue FROM sales GROUP BY region ORDER BY total_revenue DESC",
+    "expected_first_row": {"region": "North", "total_revenue": 1965.0}
+  },
+  {
+    "id": "units-by-product",
+    "question": "Which product sold the most units?",
+    "query": "SELECT product, SUM(units) AS total_units FROM sales GROUP BY product ORDER BY total_units DESC",
+    "expected_first_row": {"product": "Pen Set", "total_units": 262}
+  },
+  {
+    "id": "revenue-by-month",
+    "question": "How did revenue change month over month?",
+    "query": "SELECT substr(date, 1, 7) AS month, SUM(revenue) AS total_revenue FROM sales GROUP BY month ORDER BY month",
+    "expected_rows": [
+      {"month": "2026-01", "total_revenue": 2700.0},
+      {"month": "2026-02", "total_revenue": 3280.0},
+      {"month": "2026-03", "total_revenue": 1195.0}
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+date,region,product,units,revenue,discount
+2026-01-03,North,Notebook,18,360.00,0.00
+2026-01-05,South,Notebook,14,280.00,0.05
+2026-01-08,East,Pen Set,32,160.00,0.00
+2026-01-10,West,Desk Lamp,7,315.00,0.10
+2026-01-13,North,Pen Set,26,130.00,0.00
+2026-01-16,South,Desk Lamp,9,405.00,0.05
+2026-01-19,East,Notebook,21,420.00,0.00
+2026-01-22,West,Pen Set,30,150.00,0.00
+2026-01-25,North,Desk Lamp,8,360.00,0.05
+2026-01-28,South,Pen Set,24,120.00,0.00
+2026-02-02,East,Desk Lamp,11,495.00,0.10
+2026-02-04,West,Notebook,17,340.00,0.00
+2026-02-07,North,Notebook,20,400.00,0.05
+2026-02-10,South,Pen Set,29,145.00,0.00
+2026-02-13,East,Notebook,16,320.00,0.00
+2026-02-16,West,Desk Lamp,10,450.00,0.05
+2026-02-19,North,Pen Set,35,175.00,0.00
+2026-02-22,South,Notebook,19,380.00,0.10
+2026-02-25,East,Pen Set,27,135.00,0.00
+2026-02-28,West,Notebook,22,440.00,0.05
+2026-03-03,North,Desk Lamp,12,540.00,0.00
+2026-03-06,South,Desk Lamp,8,360.00,0.10
+2026-03-09,East,Pen Set,31,155.00,0.00
+2026-03-12,West,Pen Set,28,140.00,0.00
